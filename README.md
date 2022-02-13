@@ -1,1 +1,22 @@
-# Movies-ETL
+## Movies-ETL
+![ALT Text](ELT IMAGE GOES HERE)
+
+The purpose of the Extract, Transform, Load process is to reads data from multiple sources (extract), clean the data to create a consistent structure (transform), then write the data into a database for storage (load). For this project, an automated ETL pipeline was created to load differing movie data into existing tables of a PostgreSQL database for use in an Amazing Prime hackathon. 
+
+## Resources
+- Data Sources: wikipedia-movies.json, Kaggle movies_metadata.csv, MovieLens ratings.csv
+- Software: Python 3.7.6, Jupyter Notebook 6.4.5, PostgreSQL 11.14-1, pgAdmin4
+- Libraries: Pandas, Matplotlib
+
+
+## Project
+Pipeline creation steps included:
+* Writing an ETL function to read in the three data files and creating three separate dataframes.
+* Extracting and transforming Wikipedia data to filter out unnecessary data, group data as needed and format to a consistent expression.
+* Extracting and transforming Kaggle data as performed previously.
+* Creating the movie database by merging Wikipedia and Kaggle dataframes on pre-determined bases, filling in missing data, combining the results with the MovieLens dataframe, and loading all work into the PostgreSQL movie_data database "movies" and "ratings" tables.
+
+![ALT Text](PROJECT IMAGES GO HERE)
+
+## Summary
+This project required the extraction of disparate data, multiple iterations to clean the data with techniques such as list comprehension to filter data, lambda and regular expression (regex) use to convert values, a comparison of Wikipedia and Kaggle data to determine best use case, and the application the time module to identify the time-related task of loading work.
