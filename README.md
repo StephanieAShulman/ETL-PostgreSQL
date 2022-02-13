@@ -6,7 +6,7 @@ The purpose of the Extract, Transform, Load process is to reads data from multip
 ## Resources
 - Data Sources: wikipedia-movies.json, Kaggle movies_metadata.csv, MovieLens ratings.csv
 - Software: Python 3.7.6, Jupyter Notebook 6.4.5, PostgreSQL 11.14-1, pgAdmin4
-- Libraries: Pandas, Matplotlib
+- Libraries: Pandas, NumPy, json, RegEx, time
 
 
 ## Project
