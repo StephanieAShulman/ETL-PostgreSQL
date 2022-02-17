@@ -1,7 +1,7 @@
 ## Movies-ETL
 ![ALT Text](https://user-images.githubusercontent.com/30667001/153760764-7c974de6-e3da-4b4b-968b-e3e80ff7b674.png)
 
-The purpose of the Extract, Transform, Load process is to reads data from multiple sources (extract), clean the data to create a consistent structure (transform), then write the data into a database for storage (load). For this project, an automated ETL pipeline was created to load differing movie data into existing tables of a PostgreSQL database for use in an Amazing Prime hackathon. 
+The purpose of the Extract, Transform, Load process is to read data from multiple sources (extract), clean the data to create a consistent structure (transform), then write the data into a database for storage (load). For this project, an automated ETL pipeline was created to load differing movie data into existing tables of a PostgreSQL database for use in an Amazing Prime hackathon. 
 
 ## Resources
 - Data Sources: wikipedia-movies.json, Kaggle movies_metadata.csv, MovieLens ratings.csv
